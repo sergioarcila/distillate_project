@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="row middle">
+    <div class="col-xl-4 col-lg-4 offset-xl-4 offset-lg-4">
+      <div class="card">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12">
+            <fieldset class="form-group">
+              <label>Email Address</label>
+              <input type="email" class="form-control" name="email" [(ngModel)]="username" />
+            </fieldset>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-12 col-lg-12">
+            <fieldset class="form-group">
+              <label>Password</label>
+              <input type="password" name="password" class="form-control" [(ngModel)]="password" />
+            </fieldset>
+          </div>
+        </div>
+        <div class="row forgotpass">
+          <div class="col-xl-12 col-lg-12 text-right">
+            <a href="#">Forgot your password?</a>
+          </div>
+        </div>
+        <div class="row btn-container text-center">
+          <div class="col-xl-12 col-lg-12">
+            <button class="btn btn-default" (click)="login()">LOG IN</button>
+          </div>
+        </div>
+      </div>
+      <div class="row register">
+        <div class="col-xl-12 col-lg-12 text-center">
+          Don't have an account?
+          <a href="#">Register</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

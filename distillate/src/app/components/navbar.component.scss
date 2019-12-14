@@ -1,0 +1,9 @@
+@import '~styles.scss';
+.navbar {
+    background: $primary-color !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+.rounded {
+    border-radius: 0.5rem !important
+}

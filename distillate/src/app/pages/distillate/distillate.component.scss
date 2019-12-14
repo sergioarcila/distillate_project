@@ -1,0 +1,22 @@
+@import '~styles.scss';
+table {
+    max-height: 45vh;
+    thead {
+        background: $primary-color !important;
+        -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        th {
+            white-space: nowrap !important;
+            padding-left: 1.5rem !important;
+            padding-right: 1.5rem !important;
+        }
+    }
+    tbody {
+        th {
+            white-space: nowrap !important;
+        }
+        tr {
+            white-space: nowrap !important;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+# Logs and databases #
+######################
+*.log
+*.sql
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.zip
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Compiled source #
+###################
+.html
+
+# node module files #
+#####################
+/node_modules
